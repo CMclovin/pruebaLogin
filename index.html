@@ -61,7 +61,7 @@
 		$( document ).ready(function() {
 
 			if (sessionStorage.usuario){
-		      window.location="/bienvenida.html"
+		      window.location="/pruebaLogin/bienvenida.html"
 		    }
 
 			$(document).on("keydown",function(e){
@@ -79,7 +79,7 @@
 
 			if (usuario == "administrador" && pass == "administrador123"){
 				sessionStorage.setItem('usuario', usuario)
-				window.location="/bienvenida.html"
+				window.location="/pruebaLogin//bienvenida.html"
 			}else{
 				formLogin.trigger("reset");
 				formLogin.addClass('was-validated');
