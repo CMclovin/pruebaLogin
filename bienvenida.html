@@ -58,31 +58,31 @@
         <th scope="row">1</th>
         <td>ANUAL 2015</td>
         <td>08/08/2022</td>
-        <td><a href="/static/buscadorTextoContratos/1_1_112430/ANUAL 2018.pdf" download="ANUAL 2015.pdf">Descargar</a></td>
+        <td><a href="/static/ANUAL 2018.pdf" download="ANUAL 2015.pdf">Descargar</a></td>
       </tr>
       <tr>
         <th scope="row">2</th>
         <td>ANUAL 2016</td>
         <td>05/10/2022</td>
-        <td><a href="/static/buscadorTextoContratos/1_1_112430/ANUAL 2019.pdf" download="ANUAL 2016.pdf">Descargar</a></td>
+        <td><a href="/static/ANUAL 2019.pdf" download="ANUAL 2016.pdf">Descargar</a></td>
       </tr>
       <tr>
         <th scope="row">3</th>
         <td>ANUAL 2017</td>
         <td>05/10/2022</td>
-        <td><a href="/static/buscadorTextoContratos/1_1_112430/ANUAL 2019.pdf" download="ANUAL 2017.pdf">Descargar</a></td>
+        <td><a href="/static/ANUAL 2019.pdf" download="ANUAL 2017.pdf">Descargar</a></td>
       </tr>
       <tr>
         <th scope="row">4</th>
         <td>ANUAL 2018</td>
         <td>05/10/2022</td>
-        <td><a href="/static/buscadorTextoContratos/1_1_112430/ANUAL 2019.pdf" download="ANUAL 2018.pdf">Descargar</a></td>
+        <td><a href="/static/ANUAL 2019.pdf" download="ANUAL 2018.pdf">Descargar</a></td>
       </tr>
       <tr>
         <th scope="row">5</th>
         <td>ANUAL 2019</td>
         <td>05/10/2022</td>
-        <td><a href="/static/buscadorTextoContratos/1_1_112430/ANUAL 2019.pdf" download="ANUAL 2019.pdf">Descargar</a></td>
+        <td><a href="/static/ANUAL 2019.pdf" download="ANUAL 2019.pdf">Descargar</a></td>
       </tr>
 
     </tbody>
@@ -104,7 +104,7 @@
 		    if (sessionStorage.usuario){
 		      $('#userNavbarDropdown').text(sessionStorage.usuario);
 		    }else{
-		      window.location="/loginTest.html"
+		      window.location="/pruebaLogin"
 		    }
 
 			console.log( "ready!" );
@@ -117,9 +117,8 @@
 		});
 
 		function logout(){
-		  console.log('hola')
 		  sessionStorage.removeItem('usuario')
-		   window.location="/loginTest.html"
+		   window.location="/pruebaLogin"
 		}
 
   </script>
